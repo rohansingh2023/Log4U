@@ -3,7 +3,7 @@ import path from "path";
 import moment from "moment";
 import { LoggerConfig, LogParams, LogType } from "./model";
 
-class Logger {
+export class Logger {
   private serviceName: string;
   private logDir: string;
   private logLevel: LogType;
@@ -69,4 +69,3 @@ class Logger {
 
 }
 
-export default Logger;
